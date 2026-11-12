@@ -1,0 +1,29 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Java / Spring Boot
+authify/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Maven wrapper (keep .mvn/wrapper but ignore downloaded jar)
+authify/.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+frontend/authify_frontend/node_modules/
+frontend/authify_frontend/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local properties with secrets
+authify/src/main/resources/application-local.properties
